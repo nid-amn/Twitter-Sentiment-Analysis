@@ -3,7 +3,7 @@ Twitter Sentiment Analysis using
 
 **Table of Content**
 
-1.Importing all the essential libraries
+1. Importing all the essential libraries
 
 2. Loading the dataset
 
