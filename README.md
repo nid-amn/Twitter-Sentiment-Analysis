@@ -13,11 +13,12 @@ This project analyzes sentiments from Twitter data using Natural Language Proces
     - pickle :to save and deploy model over web
 2. Loading the dataset
     - Sentiment140 dataset
-    - ```pip install kaggle
-    - ```!mkdir -p ~/.kaggle
-    - ```!cp kaggle.json ~/.kaggle/
-    - ```!chmod 600 ~/.kaggle/kaggle.json
-    - ```!kaggle datasets download -d kazanova/sentiment140
+    - ```python
+      pip install kaggle
+      !mkdir -p ~/.kaggle
+      !cp kaggle.json ~/.kaggle/
+      !chmod 600 ~/.kaggle/kaggle.json
+      !kaggle datasets download -d kazanova/sentiment140
     - zipfile is extracted and csv file is loaded
 3. Data Preprocessing and Transformation
     - check if there exist null values
